@@ -1,0 +1,7 @@
+!.gitignore
+/.idea/**
+/.vscode/**
+/.vagrant/**
+.env
+.env.testing
+.svn/**
