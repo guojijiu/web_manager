@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:13:{s:14:"WEB_SITE_TITLE";s:82:"HulaCWMS-青岛甘木文化传媒有限公司-呼啦企业网站管理系统演示";s:20:"WEB_SITE_DESCRIPTION";s:329:"HulaCWMS(呼啦企业网站管理系统)诞生于2019年8月（www.hulaxz.com），是自主研发的一套专门用户管理企业网站的管理系统，以提供分享精品呼啦源码及建站过程常遇到的问题解决方案汇总为主要宗旨。系统特点：清爽美观，系统做减法，用户体验就很棒。";s:16:"WEB_SITE_KEYWORD";s:68:"HulaCWMS,呼啦企业网站管理系统演示,cms,内容管理系统";s:14:"WEB_SITE_CLOSE";s:1:"1";s:12:"WEB_SITE_ICP";s:22:"鲁ICP备00000001号-1";s:11:"COMPANY_TEL";s:10:"010-123456";s:13:"COMPANY_EMAIL";s:14:"zz@zhuopro.com";s:11:"COMPANY_ADD";s:33:"青岛市黄岛区长江路街道";s:10:"COMPANY_QQ";s:6:"123456";s:17:"WEB_TEMPLATE_PATH";s:7:"default";s:11:"WEB_POWERBY";s:30:"power by HulaCWMS 灼灼文化";s:11:"WEB_REWRITE";s:1:"0";s:10:"WEB_TONGJI";s:1:"1";}

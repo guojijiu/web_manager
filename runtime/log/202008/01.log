@@ -1,0 +1,1942 @@
+---------------------------------------------------------------
+
+[2020-08-01T12:02:53+08:00] 127.0.0.1 GET local.hula_data.com/favicon.ico
+[运行时间：0.289541s] [吞吐率：3.45req/s] [内存消耗：903.20kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008378s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hulacwms.zz_config' doesn't exist[/Users/liuwei/www/local/hulacwms_v2/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-01T12:07:07+08:00] 127.0.0.1 GET local.hula_data.com/
+[运行时间：0.012466s] [吞吐率：80.22req/s] [内存消耗：633.25kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001177s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hulacwms.zz_config' doesn't exist[/Users/liuwei/www/local/hulacwms_v2/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-01T12:07:45+08:00] 127.0.0.1 GET local.hula_data.com/
+[运行时间：0.079913s] [吞吐率：12.51req/s] [内存消耗：1,382.35kb] [文件加载：81]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_config` [ RunTime:0.001836s ]
+[ sql ] [ SQL ] SELECT `type`,`name`,`value` FROM `zz_config` WHERE  `status` = 1  AND `module` IN (0,1) [ RunTime:0.002634s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000866s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `zz_pv_log` (`view` , `date` , `time` , `create_time`) VALUES (1 , '2020-08-01' , 12 , 1596254865) [ RunTime:0.000654s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `zz_uv_log` (`ip` , `time` , `date` , `create_time`) VALUES ('127.0.0.1' , 12 , '2020-08-01' , 1596254865) [ RunTime:0.000532s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `zz_url_log` (`url` , `pv` , `title` , `date` , `create_time`) VALUES ('http://local.hula_data.com/' , 1 , '网站首页' , '2020-08-01' , 1596254865) [ RunTime:0.000511s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.002047s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_document_category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000623s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.004323s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.001262s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_friend_link` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_friend_link` WHERE  `status` = 1 ORDER BY `sort` ASC LIMIT 20 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:07:53+08:00] 127.0.0.1 GET local.hula_data.com/admin.php
+[运行时间：0.032913s] [吞吐率：30.38req/s] [内存消耗：454.53kb] [文件加载：75]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/tpl/admin_dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2020-08-01T12:08:57+08:00] 127.0.0.1 GET local.hula_data.com/
+[运行时间：0.033991s] [吞吐率：29.42req/s] [内存消耗：1,072.08kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.002753s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' LIMIT 1 [ RunTime:0.000771s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_url_log`  SET `pv` = `pv` + 1  WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' [ RunTime:0.000358s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000905s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.001848s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.000995s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.001154s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:09:16+08:00] 127.0.0.1 GET local.hula_data.com/admin.php
+[运行时间：0.005711s] [吞吐率：175.10req/s] [内存消耗：441.09kb] [文件加载：73]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/tpl/admin_dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2020-08-01T12:09:18+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/login.html
+[运行时间：0.026674s] [吞吐率：37.49req/s] [内存消耗：1,073.98kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000877s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000819s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.001018s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/admin.php/admin/login.html' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `zz_url_log` (`url` , `pv` , `title` , `date` , `create_time`) VALUES ('http://local.hula_data.com/admin.php/admin/login.html' , 1 , '网站首页' , '2020-08-01' , 1596254958) [ RunTime:0.000382s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.002874s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001002s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.001425s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:09:24+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/login.html
+[运行时间：0.020541s] [吞吐率：48.68req/s] [内存消耗：1,071.95kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000897s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000536s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/admin.php/admin/login.html' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_url_log`  SET `pv` = `pv` + 1  WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/admin.php/admin/login.html' [ RunTime:0.000477s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.000979s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.000885s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:10:36+08:00] 127.0.0.1 GET local.hula_data.com/admin.php
+[运行时间：0.009873s] [吞吐率：101.29req/s] [内存消耗：440.48kb] [文件加载：73]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/tpl/admin_dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2020-08-01T12:10:38+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/login.html
+[运行时间：0.020293s] [吞吐率：49.28req/s] [内存消耗：1,071.91kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001455s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000299s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/admin.php/admin/login.html' LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_url_log`  SET `pv` = `pv` + 1  WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/admin.php/admin/login.html' [ RunTime:0.000311s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.001082s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000456s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.000800s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:11:04+08:00] 127.0.0.1 GET local.hula_data.com/admin.php
+[运行时间：0.005328s] [吞吐率：187.69req/s] [内存消耗：440.48kb] [文件加载：73]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/tpl/admin_dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2020-08-01T12:17:17+08:00] 127.0.0.1 GET local.hula_data.com/
+[运行时间：0.026548s] [吞吐率：37.67req/s] [内存消耗：1,071.02kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.001801s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000688s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.002141s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001160s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_url_log`  SET `pv` = `pv` + 1  WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' [ RunTime:0.000564s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.000822s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:20:28+08:00] 127.0.0.1 GET local.hula_data.com/
+[运行时间：0.031432s] [吞吐率：31.81req/s] [内存消耗：1,071.38kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000587s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000905s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_url_log`  SET `pv` = `pv` + 1  WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' [ RunTime:0.000650s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000984s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.001160s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.003163s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:20:28+08:00] 127.0.0.1 GET local.hula_data.com/favicon.ico
+[运行时间：0.006301s] [吞吐率：158.71req/s] [内存消耗：362.26kb] [文件加载：67]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:20:29+08:00] 127.0.0.1 GET local.hula_data.com/index.php/article/lists/id/84.html
+[运行时间：0.004248s] [吞吐率：235.41req/s] [内存消耗：362.13kb] [文件加载：67]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'lists' => 'id',
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:22:45+08:00] 127.0.0.1 GET local.hula_data.com/
+[运行时间：0.044122s] [吞吐率：22.66req/s] [内存消耗：1,071.35kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.001637s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001389s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.004995s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_url_log`  SET `pv` = `pv` + 1  WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' [ RunTime:0.002346s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.000840s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.000860s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:22:45+08:00] 127.0.0.1 GET local.hula_data.com/favicon.ico
+[运行时间：0.003745s] [吞吐率：267.03req/s] [内存消耗：361.02kb] [文件加载：67]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:22:46+08:00] 127.0.0.1 GET local.hula_data.com/index.php/article/lists/id/84.html
+[运行时间：0.045643s] [吞吐率：21.91req/s] [内存消耗：1,058.27kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '84',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/case.html [ array (
+  0 => 'zzField',
+  1 => 'id',
+  2 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000517s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] UPDATE `zz_document_category`  SET `view` = `view` + 1  WHERE  `id` = 84 [ RunTime:0.001552s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/index.php/article/lists/id/84.html' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000420s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `zz_url_log` (`url` , `pv` , `title` , `date` , `create_time`) VALUES ('http://local.hula_data.com/index.php/article/lists/id/84.html' , 1 , '案例' , '2020-08-01' , 1596255766) [ RunTime:0.000314s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000539s ]
+[ debug ] 列表页模板路径：./template/default/case.html
+---------------------------------------------------------------
+
+[2020-08-01T12:22:48+08:00] 127.0.0.1 GET local.hula_data.com/index.php/article/lists/id/85.html
+[运行时间：0.023941s] [吞吐率：41.77req/s] [内存消耗：1,135.29kb] [文件加载：82]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/index.php/article/lists/id/84.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/service.html [ array (
+  0 => 'zzField',
+  1 => 'id',
+  2 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000547s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] UPDATE `zz_document_category`  SET `view` = `view` + 1  WHERE  `id` = 85 [ RunTime:0.000274s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/index.php/article/lists/id/85.html' LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `zz_url_log` (`url` , `pv` , `title` , `date` , `create_time`) VALUES ('http://local.hula_data.com/index.php/article/lists/id/85.html' , 1 , '服务' , '2020-08-01' , 1596255768) [ RunTime:0.000574s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.`content` FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` LEFT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  `a`.`status` = 1  AND `a`.`display` = 1  AND `a`.`id` = 126  AND ( a.type='article' ) LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 93 ORDER BY `sort` ASC LIMIT 4 [ RunTime:0.000942s ]
+[ debug ] 列表页模板路径：./template/default/service.html
+---------------------------------------------------------------
+
+[2020-08-01T12:22:49+08:00] 127.0.0.1 GET local.hula_data.com/index.php/article/lists/id/86.html
+[运行时间：0.022809s] [吞吐率：43.84req/s] [内存消耗：1,114.52kb] [文件加载：82]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/index.php/article/lists/id/85.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '86',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/about.html [ array (
+  0 => 'zzField',
+  1 => 'id',
+  2 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000371s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] UPDATE `zz_document_category`  SET `view` = `view` + 1  WHERE  `id` = 86 [ RunTime:0.000422s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/index.php/article/lists/id/86.html' LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `zz_url_log` (`url` , `pv` , `title` , `date` , `create_time`) VALUES ('http://local.hula_data.com/index.php/article/lists/id/86.html' , 1 , '关于' , '2020-08-01' , 1596255769) [ RunTime:0.000403s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category_content` [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_document_category_content` WHERE  `id` = 86 LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 94 ORDER BY `sort` ASC LIMIT 6 [ RunTime:0.000681s ]
+[ debug ] 列表页模板路径：./template/default/about.html
+---------------------------------------------------------------
+
+[2020-08-01T12:22:50+08:00] 127.0.0.1 GET local.hula_data.com/
+[运行时间：0.019340s] [吞吐率：51.71req/s] [内存消耗：1,071.30kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/index.php/article/lists/id/86.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./template/default/index.html [ array (
+  0 => 'id',
+  1 => 'cid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_pv_log` WHERE  `date` = '2020-08-01'  AND `time` = 12 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_pv_log`  SET `view` = `view` + 1  WHERE  `date` = '2020-08-01'  AND `time` = 12 [ RunTime:0.000386s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_uv_log` WHERE  `date` = '2020-08-01'  AND `ip` = '127.0.0.1' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zz_url_log` WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] UPDATE `zz_url_log`  SET `pv` = `pv` + 1  WHERE  `date` = '2020-08-01'  AND `url` = 'http://local.hula_data.com/' [ RunTime:0.000336s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` = 87 ORDER BY `sort` ASC LIMIT 5 [ RunTime:0.000662s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT `a`.*,b.title as category_title,`c`.* FROM `zz_document` `a` LEFT JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` RIGHT JOIN `zz_document_article` `c` ON `a`.`id`=`c`.`id` WHERE  ( a.type='article' )  AND `a`.`status` = 1  AND `b`.`status` = 1  AND `a`.`display` = 1  AND `a`.`category_id` IN ('84','88','89','90','91') ORDER BY `istop` DESC,`create_time` DESC LIMIT 6 [ RunTime:0.000845s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:22:54+08:00] 127.0.0.1 GET local.hula_data.com/admin.php
+[运行时间：0.015423s] [吞吐率：64.84req/s] [内存消耗：440.48kb] [文件加载：73]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/tpl/admin_dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2020-08-01T12:22:56+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/login.html
+[运行时间：0.006495s] [吞吐率：153.96req/s] [内存消耗：460.24kb] [文件加载：74]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/admin/login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-01T12:22:56+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/img_captcha.html
+[运行时间：0.174071s] [吞吐率：5.74req/s] [内存消耗：371.41kb] [文件加载：69]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:23:01+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/img_captcha.html?t=0.2964717177586824
+[运行时间：0.009617s] [吞吐率：103.98req/s] [内存消耗：371.27kb] [文件加载：69]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.2964717177586824',
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:23:04+08:00] 127.0.0.1 POST local.hula_data.com/admin.php/admin/login.html
+[运行时间：0.007893s] [吞吐率：126.69req/s] [内存消耗：374.50kb] [文件加载：71]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'origin' => 'http://local.hula_data.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'xeac',
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:23:04+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/img_captcha.html?t=0.8567129635770596
+[运行时间：0.004739s] [吞吐率：211.01req/s] [内存消耗：371.27kb] [文件加载：69]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.8567129635770596',
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:23:08+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/img_captcha.html?t=0.8984891729036446
+[运行时间：0.005166s] [吞吐率：193.57req/s] [内存消耗：371.27kb] [文件加载：69]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.8984891729036446',
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:23:11+08:00] 127.0.0.1 POST local.hula_data.com/admin.php/admin/login.html
+[运行时间：0.013582s] [吞吐率：73.63req/s] [内存消耗：739.30kb] [文件加载：77]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'origin' => 'http://local.hula_data.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '40',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'kmmu',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_member` WHERE  `username` = 'admin'  AND `password` = 'c22a162640d84d782e96035341e3a73d' LIMIT 1 [ RunTime:0.001975s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_action` WHERE  `name` = 'member_login_error' LIMIT 1 [ RunTime:0.001091s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action_log` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] INSERT INTO `zz_admin_action_log` (`action_id` , `user_id` , `action_ip` , `model` , `record_id` , `create_time` , `remark`) VALUES (18 , 0 , '127.0.0.1' , 'admin_member' , 0 , 1596255791 , '登录失败，尝试登录。用户名：admin') [ RunTime:0.000495s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:11+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/admin/img_captcha.html?t=0.7031955166429007
+[运行时间：0.005549s] [吞吐率：180.21req/s] [内存消耗：371.12kb] [文件加载：69]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.7031955166429007',
+)
+---------------------------------------------------------------
+
+[2020-08-01T12:23:30+08:00] 127.0.0.1 POST local.hula_data.com/admin.php/admin/login.html
+[运行时间：0.019474s] [吞吐率：51.35req/s] [内存消耗：701.96kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'origin' => 'http://local.hula_data.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '39',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => 'kpps',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_member` WHERE  `username` = 'admin'  AND `password` = '4b8368b0f4786175f97d8706a957ae4a' LIMIT 1 [ RunTime:0.001235s ]
+[ sql ] [ SQL ] UPDATE `zz_admin_member`  SET `id` = 1 , `last_login_time` = 1596255810 , `last_login_ip` = '127.0.0.1'  WHERE  `username` = 'admin'  AND `password` = '4b8368b0f4786175f97d8706a957ae4a' [ RunTime:0.000488s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action` [ RunTime:0.002138s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_action` WHERE  `name` = 'member_login_success' LIMIT 1 [ RunTime:0.000895s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action_log` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] INSERT INTO `zz_admin_action_log` (`action_id` , `user_id` , `action_ip` , `model` , `record_id` , `create_time`) VALUES (17 , 1 , '127.0.0.1' , 'admin_member' , 1 , 1596255810) [ RunTime:0.000702s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:31+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/index/index.html
+[运行时间：0.049089s] [吞吐率：20.37req/s] [内存消耗：1,362.38kb] [文件加载：82]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/index/index.html [ array (
+  0 => '__MENU__',
+  1 => 'member',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_menu` [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_menu` WHERE  `hide` = 0  AND `status` = 1  AND `pid` = 0  AND `is_dev` = 0 ORDER BY `sort` ASC [ RunTime:0.000804s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_menu` WHERE  `hide` = 0  AND `status` = 1  AND `pid` = 1  AND `is_dev` = 0 ORDER BY `sort` ASC [ RunTime:0.001375s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000858s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_menu` WHERE  `hide` = 0  AND `status` = 1  AND `pid` = 2  AND `is_dev` = 0 ORDER BY `sort` ASC [ RunTime:0.000951s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_menu` WHERE  `hide` = 0  AND `status` = 1  AND `pid` = 16  AND `is_dev` = 0 ORDER BY `sort` ASC [ RunTime:0.001285s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000758s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_menu` WHERE  `hide` = 0  AND `status` = 1  AND `pid` = 68  AND `is_dev` = 0 ORDER BY `sort` ASC [ RunTime:0.001068s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_config` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT `type`,`name`,`value` FROM `zz_config` WHERE  `status` = 1  AND `module` IN (0,2) [ RunTime:0.000431s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] DELETE FROM `zz_pv_log` WHERE  `create_time` < 1595606400 [ RunTime:0.002842s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] DELETE FROM `zz_url_log` WHERE  `create_time` < 1595606400 [ RunTime:0.000576s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.001124s ]
+[ sql ] [ SQL ] DELETE FROM `zz_uv_log` WHERE  `create_time` < 1595606400 [ RunTime:0.001253s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000724s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:31+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/index/main.html
+[运行时间：0.041692s] [吞吐率：23.99req/s] [内存消耗：1,353.34kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document` [ RunTime:0.000265s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document_category` WHERE  `status` = 1 [ RunTime:0.000341s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_member` WHERE  `status` = 1 [ RunTime:0.000326s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action_log` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_action_log` WHERE  `status` = 1 [ RunTime:0.000236s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `time`,`view` FROM `zz_pv_log` WHERE  `date` = '2020-08-01' ORDER BY `time` ASC [ RunTime:0.000222s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT count(id) as people,time FROM `zz_uv_log` WHERE  `date` = '2020-08-01' GROUP BY `time` ORDER BY `time` ASC [ RunTime:0.000304s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT sum(view) as view,date FROM `zz_pv_log` GROUP BY `date` ORDER BY `date` ASC [ RunTime:0.000623s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT count(id) as view,date FROM `zz_uv_log` GROUP BY `date` ORDER BY `date` ASC [ RunTime:0.000350s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT SUM(`pv`) AS tp_sum FROM `zz_url_log` [ RunTime:0.000488s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hulacwms.zz_url_log.title' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by[/Users/liuwei/www/local/hulacwms_v2/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:39+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/index/main.html
+[运行时间：0.024119s] [吞吐率：41.46req/s] [内存消耗：1,353.36kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document` [ RunTime:0.000241s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document_category` WHERE  `status` = 1 [ RunTime:0.000284s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_member` WHERE  `status` = 1 [ RunTime:0.000536s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action_log` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_action_log` WHERE  `status` = 1 [ RunTime:0.000253s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT `time`,`view` FROM `zz_pv_log` WHERE  `date` = '2020-08-01' ORDER BY `time` ASC [ RunTime:0.000321s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT count(id) as people,time FROM `zz_uv_log` WHERE  `date` = '2020-08-01' GROUP BY `time` ORDER BY `time` ASC [ RunTime:0.000736s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000723s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT sum(view) as view,date FROM `zz_pv_log` GROUP BY `date` ORDER BY `date` ASC [ RunTime:0.000584s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT count(id) as view,date FROM `zz_uv_log` GROUP BY `date` ORDER BY `date` ASC [ RunTime:0.000375s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT SUM(`pv`) AS tp_sum FROM `zz_url_log` [ RunTime:0.000631s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000750s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hulacwms.zz_url_log.title' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by[/Users/liuwei/www/local/hulacwms_v2/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:40+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/document/index.html
+[运行时间：0.018662s] [吞吐率：53.58req/s] [内存消耗：983.61kb] [文件加载：86]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/document/index.html [ array (
+  0 => '__MENU__',
+  1 => 'category_id',
+  2 => 'title',
+  3 => 'lists',
+  4 => 'page',
+  5 => 'categorylist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document` `a` INNER JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` WHERE  `a`.`status` > -1  AND ( a.type='article' ) [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.title as categorytitle FROM `zz_document` `a` INNER JOIN `zz_document_category` `b` ON `a`.`category_id`=`b`.`id` WHERE  `a`.`status` > -1  AND ( a.type='article' ) ORDER BY `create_time` DESC,`sort` ASC LIMIT 0,15 [ RunTime:0.000631s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`status`,`pid` FROM `zz_document_category` WHERE  `status` > -1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:42+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/index/main.html
+[运行时间：0.021245s] [吞吐率：47.07req/s] [内存消耗：1,353.34kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document` [ RunTime:0.000219s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_document_category` WHERE  `status` = 1 [ RunTime:0.000283s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_member` WHERE  `status` = 1 [ RunTime:0.000464s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000456s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action_log` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_action_log` WHERE  `status` = 1 [ RunTime:0.000503s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000776s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_pv_log` [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT `time`,`view` FROM `zz_pv_log` WHERE  `date` = '2020-08-01' ORDER BY `time` ASC [ RunTime:0.000411s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_uv_log` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT count(id) as people,time FROM `zz_uv_log` WHERE  `date` = '2020-08-01' GROUP BY `time` ORDER BY `time` ASC [ RunTime:0.000321s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT sum(view) as view,date FROM `zz_pv_log` GROUP BY `date` ORDER BY `date` ASC [ RunTime:0.000279s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SELECT count(id) as view,date FROM `zz_uv_log` GROUP BY `date` ORDER BY `date` ASC [ RunTime:0.000323s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_url_log` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT SUM(`pv`) AS tp_sum FROM `zz_url_log` [ RunTime:0.000232s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'hulacwms.zz_url_log.title' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by[/Users/liuwei/www/local/hulacwms_v2/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:55+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/documentcategory/index.html
+[运行时间：0.014547s] [吞吐率：68.74req/s] [内存消耗：830.61kb] [文件加载：82]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/documentcategory/index.html [ array (
+  0 => '__MENU__',
+  1 => 'listJson',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_document_category` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`sort`,`display` FROM `zz_document_category` WHERE  `status` > -1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000404s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:56+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/friendlink/index.html
+[运行时间：0.011531s] [吞吐率：86.72req/s] [内存消耗：838.13kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/friendlink/index.html [ array (
+  0 => '__MENU__',
+  1 => 'nickname',
+  2 => 'lists',
+  3 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_friend_link` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_friend_link` WHERE  `status` > -1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_friend_link` WHERE  `status` > -1 ORDER BY `sort` ASC LIMIT 0,15 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:56+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/messageform/index.html
+[运行时间：0.012082s] [吞吐率：82.77req/s] [内存消耗：822.58kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/messageform/index.html [ array (
+  0 => '__MENU__',
+  1 => 'nickname',
+  2 => 'lists',
+  3 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_message_form` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_message_form` WHERE  `status` > -1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_message_form` WHERE  `status` > -1 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:58+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/adminaction/action.html
+[运行时间：0.020558s] [吞吐率：48.64req/s] [内存消耗：858.62kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/adminaction/action.html [ array (
+  0 => '__MENU__',
+  1 => 'title',
+  2 => 'lists',
+  3 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_action` WHERE  `status` > -1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_action` WHERE  `status` > -1 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:23:58+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/adminauthgroup/index.html
+[运行时间：0.014392s] [吞吐率：69.48req/s] [内存消耗：814.98kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/adminauthgroup/index.html [ array (
+  0 => '__MENU__',
+  1 => 'lists',
+  2 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_auth_group` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_auth_group` WHERE  `status` > -1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_auth_group` WHERE  `status` > -1 LIMIT 0,15 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:00+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/adminaction/action.html
+[运行时间：0.009025s] [吞吐率：110.81req/s] [内存消耗：813.30kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/adminaction/action.html [ array (
+  0 => '__MENU__',
+  1 => 'title',
+  2 => 'lists',
+  3 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_action` WHERE  `status` > -1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_action` WHERE  `status` > -1 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:00+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/adminactionlog/actionlog.html
+[运行时间：0.013749s] [吞吐率：72.73req/s] [内存消耗：828.46kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/adminactionlog/actionlog.html [ array (
+  0 => '__MENU__',
+  1 => 'title',
+  2 => 'lists',
+  3 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000598s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_action_log` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_action_log` `a` INNER JOIN `zz_admin_action` `b` ON `a`.`action_id`=`b`.`id` LEFT JOIN `zz_admin_member` `c` ON `a`.`user_id`=`c`.`id` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`title`,`c`.`username` FROM `zz_admin_action_log` `a` INNER JOIN `zz_admin_action` `b` ON `a`.`action_id`=`b`.`id` LEFT JOIN `zz_admin_member` `c` ON `a`.`user_id`=`c`.`id` ORDER BY `a`.`id` DESC LIMIT 0,15 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:02+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/adminmenu/index.html
+[运行时间：0.014130s] [吞吐率：70.77req/s] [内存消耗：834.80kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/adminmenu/index.html [ array (
+  0 => '__MENU__',
+  1 => 'title',
+  2 => 'lists',
+  3 => 'pid',
+  4 => 'page',
+  5 => 'topMenu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_menu` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin_menu` WHERE  `pid` = 0 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC LIMIT 0,15 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:02+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/databases/index/type/export.html
+[运行时间：0.014670s] [吞吐率：68.17req/s] [内存消耗：818.21kb] [文件加载：82]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'export',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/databases/export.html [ array (
+  0 => '__MENU__',
+  1 => 'meta_title',
+  2 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW TABLE STATUS [ RunTime:0.002411s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:03+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/config/index.html
+[运行时间：0.032342s] [吞吐率：30.92req/s] [内存消耗：862.58kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/config/index.html [ array (
+  0 => '__MENU__',
+  1 => 'group_id',
+  2 => 'title',
+  3 => 'page',
+  4 => 'group',
+  5 => 'lists',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_config` [ RunTime:0.019190s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_config` WHERE  `status` > -1 [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_config` WHERE  `status` > -1 LIMIT 0,15 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:04+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/databases/index/type/export.html
+[运行时间：0.010984s] [吞吐率：91.04req/s] [内存消耗：769.54kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'export',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/databases/export.html [ array (
+  0 => '__MENU__',
+  1 => 'meta_title',
+  2 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW TABLE STATUS [ RunTime:0.001868s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:06+08:00] 127.0.0.1 POST local.hula_data.com/admin.php/databases/optimize/ids/zz_admin_action.html
+[运行时间：0.015081s] [吞吐率：66.31req/s] [内存消耗：640.59kb] [文件加载：78]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/databases/index/type/export.html',
+  'origin' => 'http://local.hula_data.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 'zz_admin_action',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] OPTIMIZE TABLE `zz_admin_action` [ RunTime:0.009544s ]
+---------------------------------------------------------------
+
+[2020-08-01T12:24:08+08:00] 127.0.0.1 GET local.hula_data.com/admin.php/databases/index/type/export.html
+[运行时间：0.011496s] [吞吐率：86.99req/s] [内存消耗：768.48kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liuwei/www/local/hulacwms_v2/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=c15261sen9ddd8q242c241e80c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hula_data.com/admin.php/databases/index/type/export.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hula_data.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'export',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liuwei/www/local/hulacwms_v2/application/admin/view/databases/export.html [ array (
+  0 => '__MENU__',
+  1 => 'meta_title',
+  2 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=hulacwms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin_member` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`group_id` FROM `zz_admin_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW TABLE STATUS [ RunTime:0.005481s ]

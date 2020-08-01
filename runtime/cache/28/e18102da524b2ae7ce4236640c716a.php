@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:13:{s:16:"CONFIG_TYPE_LIST";a:6:{i:0;s:6:"数字";i:1;s:6:"字符";i:5;s:6:"图片";i:2;s:6:"文本";i:3;s:6:"数组";i:4;s:6:"枚举";}s:13:"CONFIG_MODULE";a:3:{i:0;s:12:"全站作用";i:1;s:15:"仅前台作用";i:2;s:15:"仅后台作用";}s:17:"CONFIG_GROUP_LIST";a:3:{i:1;s:6:"基本";i:3;s:6:"联系";i:4;s:6:"系统";}s:9:"LIST_ROWS";s:2:"15";s:11:"COMPANY_ADD";s:33:"青岛市黄岛区长江路街道";s:16:"DATA_BACKUP_PATH";s:11:"./databack/";s:21:"DATA_BACKUP_PART_SIZE";s:8:"20971520";s:20:"DATA_BACKUP_COMPRESS";s:1:"1";s:26:"DATA_BACKUP_COMPRESS_LEVEL";s:1:"9";s:12:"DEVELOP_MODE";s:1:"1";s:17:"WEB_TEMPLATE_PATH";s:7:"default";s:10:"WEB_TONGJI";s:1:"1";s:12:"HULA_VERSION";s:5:"2.0.2";}
